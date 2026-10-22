@@ -19,7 +19,7 @@ Tick each item when it is true, then commit. Where an item asks for a note, writ
 
 ## Server
 - [ ] `cd 1-surface-and-contract/checks && go test -count=1 ./...` passes, run from the repository root.
-- [ ] Every checkpoint in the README was true when its prompt finished. Note any that wasn't, and what you did about it.
+- [ ] Every checkpoint in the practice lesson was true when its prompt finished. Note any that wasn't, and what you did about it.
 - [ ] `solution/` contains no host, date, address or message copied from `s3_logs/`.
 - [ ] `solution/README.md` says how to build and run your server.
 

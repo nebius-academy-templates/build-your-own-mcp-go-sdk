@@ -33,6 +33,7 @@ Work through them in order. Each one continues the server the previous one left.
 | 2 | [2-state-safety-errors](2-state-safety-errors/README.md) | Scan handles, two tools to page a group's lines and read around a line, resources, path screening, exact error texts and masking |
 | 3 | [3-testing-and-debugging](3-testing-and-debugging/README.md) | Your own unit, protocol and meaning tests, a scripted probe, planted bugs, logging, and a timeline tool |
 | 4 | [4-agents-and-clients](4-agents-and-clients/README.md) | HTTP with bearer tokens, callers and a read-only caller, a triage prompt, and the server in two agent hosts |
+| 5 | [5-telemetry](5-telemetry/README.md) | OTLP tracing, caller context, per-file read spans, and a traced investigation |
 
 ## Prerequisites
 | Tool | Version | Used for |
@@ -44,6 +45,7 @@ Work through them in order. Each one continues the server the previous one left.
 | An agent host | Claude Code or another coding agent that can use MCP servers | building the server and asking the questions |
 | A second agent host | Codex CLI or another host that can use MCP servers over HTTP | practice 4 |
 | git | any recent version | committing each practice |
+| LangSmith account | the free Developer plan | the trace backend in practice 5, beside a supplied local viewer |
 
 ## How to start
 1. Clone this repository and open it in your agent host at the repository root.

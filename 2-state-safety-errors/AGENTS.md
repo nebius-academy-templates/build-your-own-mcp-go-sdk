@@ -10,7 +10,7 @@
 These rules take priority over the repository root's `CLAUDE.md` wherever the two differ. `AGENTS.md` in this folder is an identical copy.
 
 ## What this practice builds
-The second version of the Log Triage server, in `solution/`, on top of what practice 1 built, with go-sdk v1.7.0 and jsonschema-go v0.4.3 on Go 1.26:
+The second version of the Log Triage server, in `solution/`, on top of what practice 1 built, with go-sdk v1.7.0 and jsonschema-go v0.4.3 on Go 1.27.1:
 
 - version `0.2.0`, the longer instructions and the `--scan-ttl` flag;
 - a scan store: `summarize_logs` returns a `scan_id`, and the store keeps each scan's groups for later calls;

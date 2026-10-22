@@ -1,6 +1,6 @@
 module github.com/nebius-academy-templates/build-your-own-mcp-go-sdk/3-testing-and-debugging/checks
 
-go 1.26
+go 1.27.1
 
 require (
 	github.com/google/jsonschema-go v0.4.3

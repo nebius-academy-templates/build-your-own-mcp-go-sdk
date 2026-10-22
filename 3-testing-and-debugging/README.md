@@ -137,7 +137,7 @@ build-your-own-mcp-go-sdk/
 Your own tests belong beside the code they exercise. The practice checks identify test categories by location and file name, but the production package structure stays under your control.
 
 ## Set up the project
-You need Go 1.26 or newer, Node.js 22.19 or newer, Git, and a coding agent or editor.
+You need Go 1.27.1 or newer, Node.js 22.19 or newer, Git, and a coding agent or editor.
 
 From the repository root:
 

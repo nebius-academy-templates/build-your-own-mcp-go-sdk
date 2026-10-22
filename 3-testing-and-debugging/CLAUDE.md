@@ -11,7 +11,7 @@
 These rules take priority over the repository root's `CLAUDE.md` wherever the two differ. `AGENTS.md` in this folder is an identical copy.
 
 ## What this practice builds
-The third version of the Log Triage server, in `solution/`, on top of what practices 1 and 2 built, with go-sdk v1.7.0 and jsonschema-go v0.4.3 on Go 1.26:
+The third version of the Log Triage server, in `solution/`, on top of what practices 1 and 2 built, with go-sdk v1.7.0 and jsonschema-go v0.4.3 on Go 1.27.1:
 
 - the server's own tests, next to the code: `internal/logs/formats_test.go` and `groups_test.go` (unit), and in `internal/triage/` `protocol_test.go`, `flow_test.go` and `facts_test.go` (protocol, flow, meaning), with shared helpers in `setup_test.go`;
 - a scripted client in `solution/cmd/probe/`;

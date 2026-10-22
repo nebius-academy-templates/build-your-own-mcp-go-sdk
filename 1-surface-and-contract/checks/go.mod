@@ -1,6 +1,6 @@
 module github.com/nebius-academy-templates/build-your-own-mcp-go-sdk/1-surface-and-contract/checks
 
-go 1.26
+go 1.27.1
 
 require (
 	github.com/google/jsonschema-go v0.4.3

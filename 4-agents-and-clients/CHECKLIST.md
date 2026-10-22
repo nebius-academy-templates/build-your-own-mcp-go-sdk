@@ -17,9 +17,9 @@ Tick each item when it is true, then commit. Where an item asks for a note, writ
 ## Server
 - [ ] `cd 4-agents-and-clients/checks && go test -count=1 ./...` passes, run from the repository root.
 - [ ] The practice 1 to 3 checks still pass, and so does `go -C solution test -count=1 ./...`.
-- [ ] Every checkpoint in the README was true when its prompt finished. Note any that wasn't, and what you did about it.
+- [ ] Every checkpoint in the practice lesson was true when its prompt finished. Note any that wasn't, and what you did about it.
 - [ ] With `--http`, the server's stdout stays empty, and anything it logs goes to stderr.
-- [ ] No token is written in any file you commit, and `.mcp.json` is not in the commit.
+- [ ] No token of your own is written in any file you commit. The example tokens in `tokens.example.env` and `inspector.json` are part of the practice and stay. `.mcp.json` is not in the commit.
 - [ ] Nothing in `solution/` outside the `*_test.go` files and `cmd/probe/`, the prompt's text included, names a host, a date, an address or a message from `s3_logs/`.
 - [ ] `solution/README.md` gives the HTTP command.
 

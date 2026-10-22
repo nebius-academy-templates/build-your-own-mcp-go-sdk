@@ -185,7 +185,7 @@ build-your-own-mcp-go-sdk/
 Keep `s3_logs/` read-only. The server may write only inside the configured reports directory.
 
 ## Set up the project
-You need Go 1.26 or newer, Node.js 22.19 or newer, Git, and a coding agent or editor.
+You need Go 1.27.1 or newer, Node.js 22.19 or newer, Git, and a coding agent or editor.
 
 From the repository root, install the check dependencies and confirm that the starter state fails because no server exists yet:
 

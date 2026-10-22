@@ -9,7 +9,7 @@
 These rules take priority over the repository root's `CLAUDE.md` wherever the two differ. `AGENTS.md` in this folder is an identical copy.
 
 ## What this practice builds
-The first version of the Log Triage server, in `solution/`, with go-sdk v1.7.0 and jsonschema-go v0.4.3 on Go 1.26:
+The first version of the Log Triage server, in `solution/`, with go-sdk v1.7.0 and jsonschema-go v0.4.3 on Go 1.27.1:
 
 - the server object, its name, version and instructions, its three command-line flags, stdio;
 - a log reader that follows `docs/log-formats.md`;

@@ -1,6 +1,6 @@
 module github.com/nebius-academy-templates/build-your-own-mcp-go-sdk/4-agents-and-clients/checks
 
-go 1.26
+go 1.27.1
 
 require github.com/modelcontextprotocol/go-sdk v1.7.0
 

@@ -161,7 +161,7 @@ build-your-own-mcp-go-sdk/
 Keep the earlier worksheet unchanged. Complete [interface.md](interface.md), compare it with the contract, and record meaningful differences without replacing your original design.
 
 ## Set up the project
-You need Go 1.26 or newer, Node.js 22.19 or newer, Git, and a coding agent or editor.
+You need Go 1.27.1 or newer, Node.js 22.19 or newer, Git, and a coding agent or editor.
 
 From the repository root:
 
